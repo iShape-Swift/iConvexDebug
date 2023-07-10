@@ -190,8 +190,53 @@ final class PinTestStore: TestStore {
                 CGPoint(x: 5.0, y: 10.0),
                 CGPoint(x: 5.0, y: -20.0)
             ]
+        ),
+        .init(
+            name: "2x octagons 1",
+            pA: [
+                CGPoint(x:  -5.0, y:   5.0),
+                CGPoint(x:   0.0, y:  10.0),
+                CGPoint(x:  10.0, y:  10.0),
+                CGPoint(x:  15.0, y:   5.0),
+                CGPoint(x:  15.0, y:  -5.0),
+                CGPoint(x:  10.0, y: -10.0),
+                CGPoint(x:   0.0, y: -10.0),
+                CGPoint(x:  -5.0, y:  -5.0)
+            ],
+            pB: [
+                CGPoint(x: -10.0, y:   5.0),
+                CGPoint(x:  -5.0, y:  10.0),
+                CGPoint(x:   5.0, y:  10.0),
+                CGPoint(x:  10.0, y:   5.0),
+                CGPoint(x:  10.0, y:  -5.0),
+                CGPoint(x:   5.0, y: -10.0),
+                CGPoint(x:  -5.0, y: -10.0),
+                CGPoint(x: -10.0, y:  -5.0)
+            ]
+        ),
+        .init(
+            name: "2x octagons 2",
+            pA: [
+                CGPoint(x:  -5.0, y:   5.0),
+                CGPoint(x:   0.0, y:  10.0),
+                CGPoint(x:  10.0, y:  10.0),
+                CGPoint(x:  15.0, y:   5.0),
+                CGPoint(x:  15.0, y:  -5.0),
+                CGPoint(x:  10.0, y: -10.0),
+                CGPoint(x:   0.0, y: -10.0),
+                CGPoint(x:  -5.0, y:  -5.0)
+            ],
+            pB: [
+                CGPoint(x: -10.0, y:  10.0),
+                CGPoint(x:  -5.0, y:  15.0),
+                CGPoint(x:   5.0, y:  15.0),
+                CGPoint(x:  10.0, y:  10.0),
+                CGPoint(x:  10.0, y:   0.0),
+                CGPoint(x:   5.0, y:  -5.0),
+                CGPoint(x:  -5.0, y:  -5.0),
+                CGPoint(x: -10.0, y:   0.0)
+            ]
         )
-        
     ]
 
 }
