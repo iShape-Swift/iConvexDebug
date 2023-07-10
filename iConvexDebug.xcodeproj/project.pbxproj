@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54EBAFA42A5C163F00E4E31F /* iConvexDebugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFA32A5C163F00E4E31F /* iConvexDebugApp.swift */; };
+		54EBAFA62A5C163F00E4E31F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFA52A5C163F00E4E31F /* MainView.swift */; };
+		54EBAFA82A5C164000E4E31F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EBAFA72A5C164000E4E31F /* Assets.xcassets */; };
+		54EBAFAC2A5C164000E4E31F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EBAFAB2A5C164000E4E31F /* Preview Assets.xcassets */; };
+		54EBAFBA2A5C16DD00E4E31F /* iConvex in Frameworks */ = {isa = PBXBuildFile; productRef = 54EBAFB92A5C16DD00E4E31F /* iConvex */; };
+		54EBAFBC2A5C16DD00E4E31F /* iDebug in Frameworks */ = {isa = PBXBuildFile; productRef = 54EBAFBB2A5C16DD00E4E31F /* iDebug */; };
+		54EBAFBE2A5C16DD00E4E31F /* iFixFloat in Frameworks */ = {isa = PBXBuildFile; productRef = 54EBAFBD2A5C16DD00E4E31F /* iFixFloat */; };
+		54EBAFC02A5C16DE00E4E31F /* iShape in Frameworks */ = {isa = PBXBuildFile; productRef = 54EBAFBF2A5C16DE00E4E31F /* iShape */; };
+		54EBAFC32A5C172000E4E31F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFC22A5C172000E4E31F /* MainViewModel.swift */; };
+		54EBAFC72A5C176100E4E31F /* TestStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFC62A5C176100E4E31F /* TestStore.swift */; };
+		54EBAFC92A5C177900E4E31F /* SceneContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFC82A5C177900E4E31F /* SceneContainer.swift */; };
+		54EBAFCC2A5C179F00E4E31F /* PinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFCB2A5C179F00E4E31F /* PinScene.swift */; };
+		54EBAFCE2A5C17AF00E4E31F /* PinSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFCD2A5C17AF00E4E31F /* PinSceneView.swift */; };
+		54EBAFD02A5C17BD00E4E31F /* PinVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFCF2A5C17BD00E4E31F /* PinVector.swift */; };
+		54EBAFD22A5C182F00E4E31F /* PinTestStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFD12A5C182F00E4E31F /* PinTestStore.swift */; };
+		54EBAFD42A5C185300E4E31F /* PolygonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFD32A5C185300E4E31F /* PolygonTest.swift */; };
+		54EBAFD72A5C1EC900E4E31F /* PinDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFD62A5C1EC900E4E31F /* PinDot.swift */; };
+		54EBAFD92A5C1F0C00E4E31F /* PinAreaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFD82A5C1F0C00E4E31F /* PinAreaScene.swift */; };
+		54EBAFDB2A5C1F4100E4E31F /* PinAreaSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBAFDA2A5C1F4100E4E31F /* PinAreaSceneView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54EBAFA02A5C163F00E4E31F /* iConvexDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iConvexDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EBAFA32A5C163F00E4E31F /* iConvexDebugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iConvexDebugApp.swift; sourceTree = "<group>"; };
+		54EBAFA52A5C163F00E4E31F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		54EBAFA72A5C164000E4E31F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54EBAFA92A5C164000E4E31F /* iConvexDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iConvexDebug.entitlements; sourceTree = "<group>"; };
+		54EBAFAB2A5C164000E4E31F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54EBAFB32A5C169100E4E31F /* iFixFloat */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = iFixFloat; path = ../../iFixFloat; sourceTree = "<group>"; };
+		54EBAFB42A5C169B00E4E31F /* iDebug */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = iDebug; path = ../../iDebug; sourceTree = "<group>"; };
+		54EBAFB52A5C16BB00E4E31F /* iShape */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = iShape; path = ../../iShape; sourceTree = "<group>"; };
+		54EBAFB62A5C16C600E4E31F /* iConvex */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = iConvex; path = ../../iConvex; sourceTree = "<group>"; };
+		54EBAFB72A5C16D100E4E31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		54EBAFC22A5C172000E4E31F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		54EBAFC62A5C176100E4E31F /* TestStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStore.swift; sourceTree = "<group>"; };
+		54EBAFC82A5C177900E4E31F /* SceneContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneContainer.swift; sourceTree = "<group>"; };
+		54EBAFCB2A5C179F00E4E31F /* PinScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinScene.swift; sourceTree = "<group>"; };
+		54EBAFCD2A5C17AF00E4E31F /* PinSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinSceneView.swift; sourceTree = "<group>"; };
+		54EBAFCF2A5C17BD00E4E31F /* PinVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinVector.swift; sourceTree = "<group>"; };
+		54EBAFD12A5C182F00E4E31F /* PinTestStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinTestStore.swift; sourceTree = "<group>"; };
+		54EBAFD32A5C185300E4E31F /* PolygonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonTest.swift; sourceTree = "<group>"; };
+		54EBAFD62A5C1EC900E4E31F /* PinDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinDot.swift; sourceTree = "<group>"; };
+		54EBAFD82A5C1F0C00E4E31F /* PinAreaScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAreaScene.swift; sourceTree = "<group>"; };
+		54EBAFDA2A5C1F4100E4E31F /* PinAreaSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAreaSceneView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54EBAF9D2A5C163F00E4E31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EBAFC02A5C16DE00E4E31F /* iShape in Frameworks */,
+				54EBAFBE2A5C16DD00E4E31F /* iFixFloat in Frameworks */,
+				54EBAFBC2A5C16DD00E4E31F /* iDebug in Frameworks */,
+				54EBAFBA2A5C16DD00E4E31F /* iConvex in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54EBAF972A5C163F00E4E31F = {
+			isa = PBXGroup;
+			children = (
+				54EBAFB22A5C169100E4E31F /* Packages */,
+				54EBAFA22A5C163F00E4E31F /* iConvexDebug */,
+				54EBAFA12A5C163F00E4E31F /* Products */,
+				54EBAFB82A5C16DD00E4E31F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54EBAFA12A5C163F00E4E31F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54EBAFA02A5C163F00E4E31F /* iConvexDebug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54EBAFA22A5C163F00E4E31F /* iConvexDebug */ = {
+			isa = PBXGroup;
+			children = (
+				54EBAFC52A5C175400E4E31F /* Test */,
+				54EBAFC42A5C174C00E4E31F /* Scene */,
+				54EBAFC12A5C171600E4E31F /* Main */,
+				54EBAFB72A5C16D100E4E31F /* Info.plist */,
+				54EBAFA32A5C163F00E4E31F /* iConvexDebugApp.swift */,
+				54EBAFA72A5C164000E4E31F /* Assets.xcassets */,
+				54EBAFA92A5C164000E4E31F /* iConvexDebug.entitlements */,
+				54EBAFAA2A5C164000E4E31F /* Preview Content */,
+			);
+			path = iConvexDebug;
+			sourceTree = "<group>";
+		};
+		54EBAFAA2A5C164000E4E31F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				54EBAFAB2A5C164000E4E31F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54EBAFB22A5C169100E4E31F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				54EBAFB32A5C169100E4E31F /* iFixFloat */,
+				54EBAFB42A5C169B00E4E31F /* iDebug */,
+				54EBAFB52A5C16BB00E4E31F /* iShape */,
+				54EBAFB62A5C16C600E4E31F /* iConvex */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		54EBAFB82A5C16DD00E4E31F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54EBAFC12A5C171600E4E31F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				54EBAFA52A5C163F00E4E31F /* MainView.swift */,
+				54EBAFC22A5C172000E4E31F /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		54EBAFC42A5C174C00E4E31F /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				54EBAFD52A5C1EB000E4E31F /* PinArea */,
+				54EBAFCA2A5C179100E4E31F /* Pin */,
+				54EBAFC82A5C177900E4E31F /* SceneContainer.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		54EBAFC52A5C175400E4E31F /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				54EBAFC62A5C176100E4E31F /* TestStore.swift */,
+				54EBAFD32A5C185300E4E31F /* PolygonTest.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		54EBAFCA2A5C179100E4E31F /* Pin */ = {
+			isa = PBXGroup;
+			children = (
+				54EBAFCB2A5C179F00E4E31F /* PinScene.swift */,
+				54EBAFCD2A5C17AF00E4E31F /* PinSceneView.swift */,
+				54EBAFCF2A5C17BD00E4E31F /* PinVector.swift */,
+				54EBAFD12A5C182F00E4E31F /* PinTestStore.swift */,
+			);
+			path = Pin;
+			sourceTree = "<group>";
+		};
+		54EBAFD52A5C1EB000E4E31F /* PinArea */ = {
+			isa = PBXGroup;
+			children = (
+				54EBAFD62A5C1EC900E4E31F /* PinDot.swift */,
+				54EBAFD82A5C1F0C00E4E31F /* PinAreaScene.swift */,
+				54EBAFDA2A5C1F4100E4E31F /* PinAreaSceneView.swift */,
+			);
+			path = PinArea;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54EBAF9F2A5C163F00E4E31F /* iConvexDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EBAFAF2A5C164000E4E31F /* Build configuration list for PBXNativeTarget "iConvexDebug" */;
+			buildPhases = (
+				54EBAF9C2A5C163F00E4E31F /* Sources */,
+				54EBAF9D2A5C163F00E4E31F /* Frameworks */,
+				54EBAF9E2A5C163F00E4E31F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iConvexDebug;
+			packageProductDependencies = (
+				54EBAFB92A5C16DD00E4E31F /* iConvex */,
+				54EBAFBB2A5C16DD00E4E31F /* iDebug */,
+				54EBAFBD2A5C16DD00E4E31F /* iFixFloat */,
+				54EBAFBF2A5C16DE00E4E31F /* iShape */,
+			);
+			productName = iConvexDebug;
+			productReference = 54EBAFA02A5C163F00E4E31F /* iConvexDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54EBAF982A5C163F00E4E31F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					54EBAF9F2A5C163F00E4E31F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 54EBAF9B2A5C163F00E4E31F /* Build configuration list for PBXProject "iConvexDebug" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54EBAF972A5C163F00E4E31F;
+			productRefGroup = 54EBAFA12A5C163F00E4E31F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54EBAF9F2A5C163F00E4E31F /* iConvexDebug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54EBAF9E2A5C163F00E4E31F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EBAFAC2A5C164000E4E31F /* Preview Assets.xcassets in Resources */,
+				54EBAFA82A5C164000E4E31F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54EBAF9C2A5C163F00E4E31F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EBAFA62A5C163F00E4E31F /* MainView.swift in Sources */,
+				54EBAFA42A5C163F00E4E31F /* iConvexDebugApp.swift in Sources */,
+				54EBAFD42A5C185300E4E31F /* PolygonTest.swift in Sources */,
+				54EBAFCC2A5C179F00E4E31F /* PinScene.swift in Sources */,
+				54EBAFC92A5C177900E4E31F /* SceneContainer.swift in Sources */,
+				54EBAFD02A5C17BD00E4E31F /* PinVector.swift in Sources */,
+				54EBAFC32A5C172000E4E31F /* MainViewModel.swift in Sources */,
+				54EBAFD72A5C1EC900E4E31F /* PinDot.swift in Sources */,
+				54EBAFDB2A5C1F4100E4E31F /* PinAreaSceneView.swift in Sources */,
+				54EBAFD22A5C182F00E4E31F /* PinTestStore.swift in Sources */,
+				54EBAFC72A5C176100E4E31F /* TestStore.swift in Sources */,
+				54EBAFCE2A5C17AF00E4E31F /* PinSceneView.swift in Sources */,
+				54EBAFD92A5C1F0C00E4E31F /* PinAreaScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54EBAFAD2A5C164000E4E31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54EBAFAE2A5C164000E4E31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		54EBAFB02A5C164000E4E31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iConvexDebug/iConvexDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iConvexDebug/Preview Content\"";
+				DEVELOPMENT_TEAM = HPV9E52JPX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iConvexDebug/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nail.iConvexDebug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54EBAFB12A5C164000E4E31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iConvexDebug/iConvexDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iConvexDebug/Preview Content\"";
+				DEVELOPMENT_TEAM = HPV9E52JPX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iConvexDebug/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nail.iConvexDebug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54EBAF9B2A5C163F00E4E31F /* Build configuration list for PBXProject "iConvexDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EBAFAD2A5C164000E4E31F /* Debug */,
+				54EBAFAE2A5C164000E4E31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EBAFAF2A5C164000E4E31F /* Build configuration list for PBXNativeTarget "iConvexDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EBAFB02A5C164000E4E31F /* Debug */,
+				54EBAFB12A5C164000E4E31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54EBAFB92A5C16DD00E4E31F /* iConvex */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = iConvex;
+		};
+		54EBAFBB2A5C16DD00E4E31F /* iDebug */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = iDebug;
+		};
+		54EBAFBD2A5C16DD00E4E31F /* iFixFloat */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = iFixFloat;
+		};
+		54EBAFBF2A5C16DE00E4E31F /* iShape */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = iShape;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 54EBAF982A5C163F00E4E31F /* Project object */;
+}
