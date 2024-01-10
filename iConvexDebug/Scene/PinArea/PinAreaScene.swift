@@ -103,8 +103,8 @@ final class PinAreaScene: ObservableObject, SceneContainer {
         guard !pA.isEmpty && !pB.isEmpty else { return }
         
         
-        let ctA = pA.isConvex
-        let ctB = pB.isConvex
+        let ctA = pA.convexTest
+        let ctB = pB.convexTest
 
         editorA.set(stroke: 1, color: color(convexTest: ctA, main: PinAreaScene.colorA))
         editorB.set(stroke: 1, color: color(convexTest: ctB, main: PinAreaScene.colorB))

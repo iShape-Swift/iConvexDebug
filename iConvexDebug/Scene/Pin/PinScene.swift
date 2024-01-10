@@ -84,15 +84,15 @@ final class PinScene: ObservableObject, SceneContainer {
     }
 
     func solve() {
-        let pA = editorA.points.map({ $0.fixVec })
-        let pB = editorB.points.map({ $0.fixVec })
+        let pA: FixPath = editorA.points.map({ $0.fixVec })
+        let pB: FixPath = editorB.points.map({ $0.fixVec })
 
         guard !pA.isEmpty && !pB.isEmpty else { return }
         
         pins.removeAll()
         
-        let ctA = pA.isConvex
-        let ctB = pB.isConvex
+        let ctA = pA.convexTest
+        let ctB = pB.convexTest
 
         editorA.set(stroke: 1, color: color(convexTest: ctA, main: PinScene.colorA))
         editorB.set(stroke: 1, color: color(convexTest: ctB, main: PinScene.colorB))
